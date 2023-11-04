@@ -1,0 +1,17 @@
+.main {
+  position: absolute;
+  left: 21%;
+  margin: 1.5rem auto;
+  width: 75%;
+  max-width: 40rem;
+}
+
+.pagecontainer{
+  position: relative;
+  min-height: 100vh;
+  
+}
+
+.contentwrapper{
+  padding-bottom: 2.5rem;
+}

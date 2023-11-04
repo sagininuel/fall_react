@@ -1,0 +1,36 @@
+
+.left__navbar{
+    background-color:azure;
+    position:absolute;
+    /* left:20%; */
+    align-items: center;
+    height:200%;
+    /* flex-direction: row; */
+    justify-content: center;
+  }
+
+  .left__navbar,a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: bold;
+  }
+
+  .left__navbar,ul{
+    list-style: none;
+    margin: 0;
+    padding: 0.1rem;
+    /* display: flex; */
+    /* align-items: baseline; */
+  }
+
+  .left__navbar,li{
+    padding: 1rem;
+  }
+
+
+  .left__navbar a:hover,
+  .left__navbar a:active,
+  .left__navbar a.active {
+    color: #75bad4;
+  }

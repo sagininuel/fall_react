@@ -14,7 +14,7 @@ const DUM_DATA = [
   {
     id: "2m",
     title: "Second Meetup",
-    image: "#",
+    image: "logo192.png",
     description: "Heavenly",
     address: "0100-10",
   },
@@ -31,6 +31,27 @@ const DUM_DATA = [
     image: "#",
     description: "Heavenly",
     address: "0100-10",
+  },
+];
+
+const DUMMY_DATA = [
+  {
+    id: 'm1',
+    title: 'This is a first meetup',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg',
+    address: 'Meetupstreet 5, 12345 Meetup City',
+    description:
+      'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!',
+  },
+  {
+    id: 'm2',
+    title: 'This is a second meetup',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg',
+    address: 'Meetupstreet 5, 12345 Meetup City',
+    description:
+      'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!',
   },
 ];
 
@@ -72,7 +93,7 @@ function AllMeetupsPage() {
         return <li key={meetup.id}>{meetup.title}</li>;
       })} */}
       {/* Scaling purposes */}
-      <MeetupList meetups={loadedMeetups} />
+      <MeetupList meetups={DUMMY_DATA} />
     </section>
   );
 }
