@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import MeetupList from "../components/meetups/MeetupList";
+// import logo from "./logo.png";
 
 const DUM_DATA = [
   {
@@ -35,6 +36,14 @@ const DUM_DATA = [
 ];
 
 const DUMMY_DATA = [
+  {
+    id: 'm2',
+    title: 'This is a meetup',
+    image:"/images/me.png",
+    address: 'Meetupstreet 5, 12345 Meetup City',
+    description:
+      'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!',
+  },
   {
     id: 'm1',
     title: 'This is a first meetup',
