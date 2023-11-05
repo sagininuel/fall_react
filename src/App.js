@@ -5,6 +5,7 @@ import FavoritesPage from "./pages/Favorites";
 import NewMeetupPage from "./pages/NewMeetup";
 // import MainNavigation from "./components/layout/MainNavigation";
 import Layout from "./components/layout/Layout";
+import TodoApp from "./components/lab/Todo";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<AllMeetupsPage/>}></Route>
           <Route path="/new-meetup" element={<NewMeetupPage/>}></Route>
           <Route path="/favorites" element={<FavoritesPage/>}></Route>
+          <Route path="/test" element={<TodoApp/>}></Route>
           <Route path="/*" element={<AllMeetupsPage/>}></Route>
         </Routes>
     </Layout>

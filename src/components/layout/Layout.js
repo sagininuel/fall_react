@@ -8,8 +8,10 @@ function Layout(props) {
     <div className={classes.pagecontainer}>
       <div className={classes.contentwrapper}>
         <MainNavigation />
-        <LeftNavbar />
-        <main className={classes.main}>{props.children}</main>
+        {/* <LeftNavbar /> */}
+        <section className={classes.layout__section}>
+          <main className={classes.main}>{props.children}</main>
+        </section>
       </div>
       <Footer />
     </div>

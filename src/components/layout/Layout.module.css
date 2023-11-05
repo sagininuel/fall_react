@@ -1,5 +1,5 @@
 .main {
-  position: absolute;
+  position: center;
   left: 21%;
   margin: 1.5rem auto;
   width: 75%;
@@ -14,4 +14,10 @@
 
 .contentwrapper{
   padding-bottom: 2.5rem;
+}
+
+.layout__section{
+  background-color: white;
+  max-width: 700px;
+  margin: auto;
 }
